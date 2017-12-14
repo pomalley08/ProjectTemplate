@@ -51,6 +51,8 @@
 #'  If 'off', character vectors will remain character vectors. \cr
 #'  \code{data_tables} \tab This can be set to 'on' or 'off'. If data_tables is on, the
 #' system will convert every data set loaded from the data directory into a data.table. \cr
+#' \code{tibbles} \tab This can be set to 'on' or 'off'. If tibbles is on, the
+#' system will convert every data set loaded from the data directory into a tibble. \cr
 #'  \code{attach_internal_libraries} \tab This can be set to 'on' or 'off'. If
 #' attach_internal_libraries is on, then every time a new package is loaded into memory
 #' during load.project() a warning will be displayed informing that has happened. \cr
